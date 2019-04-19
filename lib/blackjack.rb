@@ -18,8 +18,6 @@ def get_user_input
  gets.chomp.strip
 end
 
-
-
 def end_game(card_total)
   puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
@@ -41,19 +39,11 @@ def hit? (card_total)
     end
 end
 
-
-
 def invalid_command
   puts "Sorry, not a valid command"
   
   get_user_input
 end
-
-#####################################################
-# get every test to pass before coding runner below #
-#####################################################
-
-
 
 def runner
   welcome
